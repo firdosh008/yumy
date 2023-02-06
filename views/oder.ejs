@@ -1,0 +1,64 @@
+<%- include("order-heading") -%>
+
+  <div class="container-fluid "style="background-color:#f1f0f0">
+    <div  class="row">
+
+        <div class="newTab container col">
+            <ul class="nav nav-tabs  " id="myTab" role="tablist" >
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="brunch-tab" data-bs-toggle="tab" data-bs-target="#brunch" type="button" role="tab" aria-selected="true">STARTERS</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lunch-tab" data-bs-toggle="tab" data-bs-target="#lunch" type="button" role="tab"  aria-selected="false">LUNCH</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="dinner-tab" data-bs-toggle="tab" data-bs-target="#dinner" type="button" role="tab"  aria-selected="false">DINNER</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="desert-tab" data-bs-toggle="tab" data-bs-target="#deserts" type="button" role="tab"  aria-selected="false">DRINKS</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="brunch" role="tabpanel" aria-labelledby="brunch-tab">
+                <%- include("oder-iteams") -%>
+                </div>
+                
+            
+              <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                <%- include("oder-iteams") -%>
+              </div>
+        
+        
+              <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                <%- include("oder-iteams") -%>
+              </div>
+        
+        
+              <div class="tab-pane fade" id="deserts" role="tabpanel" aria-labelledby="desert-tab">
+                <%- include("oder-iteams") -%>
+          </div>
+            </div>
+          </div>
+        
+       
+            <div id="cart" class="cart-box"  style="padding:0;">
+              <div id="empty">
+                <h1>Your cart is <span>empty!</span> </h1> 
+                <p>Please add some new item</p>
+              </div>
+              <div id="cartiteam">
+
+              </div>
+                
+              </div>
+       
+          
+    
+       </div>
+  </div>
+  
+   
+<script src="add.js"></script>
+
+
+<%- include("footer") -%>

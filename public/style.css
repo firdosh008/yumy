@@ -1,0 +1,529 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    
+font-size: x-large;
+}
+p{
+    font-size: large;
+}
+
+
+.collapse{
+    padding-left: 11rem;
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+.nav-nav{
+    font-size: larger !important;
+}
+.btn-danger{
+    position: relative;
+    left:6%
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.front-page{
+    padding-top: 20px;
+    background-color:#eee;
+}
+
+.about{
+    padding-top: 20px;
+    text-align: center;
+   
+}
+span{
+    color: red;
+}
+.colf1{
+    text-align:left;
+    font-size: xx-large;
+}
+.second{
+    padding-top: 50px;
+}
+.no-background{
+    background-color: rgb(255, 255, 255);
+    padding-bottom:35px ;
+}
+.feature{
+    padding: 50px;
+    background-color: #eee;
+}
+
+.fea{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+.fea a{
+    color: white;
+}
+.fea a:hover {
+ color: red;
+}
+
+#about .res{
+    width:90%; height:40rem;
+}
+
+.card {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 40px 20px;
+  transition: .5s;
+}
+.ca{
+    position:relative;
+    top:40px;
+    width: 300px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+.ca:hover {
+  transform:scale(1.1);
+}
+
+.count{
+    padding-top: 45px;
+    color: rgb(255, 255, 255);
+    height: 10rem;
+}
+
+.menu a:hover{
+    color: red;
+    text-decoration:underline;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link :hover{
+    border: 0;
+}
+.nav-tabs{
+    border: 0;
+}
+
+
+.nav-tabs .active{
+    border-bottom: 4px solid #f3565d !important;
+  }
+
+
+ @media screen and (max-width:480px){
+    .mytab{
+        font-size:small !important;
+    }
+    #about .res{
+        width:90%; height:25rem;
+    }
+    .tab-content{
+        position: relative;
+       right:40px
+    }
+    .card{
+     width: 100% !important;;
+    }
+    .mapouter .gmap_canvas{
+        width: 90% !important;
+    }
+    #myTab{
+        position: relative;
+        left:-10px;
+    }
+ }
+ .card{
+    border: 0;
+ }
+ .nav-link{
+    color: black;
+ }
+
+.mytab{
+    width: 90% !important;
+}
+
+  .bmenu{
+    margin: 0;
+    padding-top: 40px;
+  }
+  .sub{
+    position: relative;
+    top:-0.5rem;
+  }
+
+  .image{
+    position: relative;
+    left: 22rem;
+    padding:30px ;
+    border-radius:50%;
+  }
+ .testimonial{
+    text-align:center;
+ }
+.chef .row{
+    --bs-gutter-x:0;
+}
+.chef .card{
+    width: 85%;
+    margin: 2px;
+    padding: 0%;
+}
+.chef .col {
+    height: 30 rem;
+}
+.chef .card-body{
+    text-align: center;
+}
+.chef .card-body p{
+    color: gray;
+}
+
+form .row {
+    padding: 25px;
+}
+
+.Gallrey img{
+    width: 100%;
+}
+
+.Gallrey .row{
+    padding: 25px;
+}
+
+
+.bmenu .card button {
+    padding: 2px;
+}
+
+.footer{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px;
+    background-color: black;
+    color:rgba(255, 254, 254, 0.847);
+}
+.footer a{
+    color:white;
+    width: fit-content;
+}
+.footer a:hover{
+    color: red;
+}
+
+.footer .container{
+    width: 65rem;
+}
+.footer .Copyright{
+   
+    text-align: center;
+}
+.footer p{
+    width: 100%;
+}
+
+
+.map{
+   padding: 35px;
+}
+.menu-designe .input{
+    margin:35px;
+}
+.message-button{
+   padding-left: 20rem;
+}
+
+.menu-designe h1{
+    text-align: center;
+    text-decoration:underline;
+}
+.menu-designe #name{
+    display:block;
+    margin-bottom: 25px;
+}
+.menu-designe .data{
+padding: 30px;
+}
+.menu-designe .data .btn{
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+.menu-designe .data .bu{
+    display: inline;
+  
+    text-decoration: none;
+    border: 0;
+    background-color: transparent;
+    font-size:5rem;
+    margin-left: 20px;
+}
+.menu-designe .data .bu{
+    color: gray !important;
+    cursor:pointer;
+}
+
+.menu-designe .data .bu :hover{
+  color: #f3565d;
+}
+
+#new-box{
+    width: 100%;
+  }
+
+.menu-designe .input .old-data a{
+    position: absolute;
+    right: 5px;
+}
+.menu-designe .input .old-data a:hover{
+    color: #f3565d !important;
+}
+
+.new-content{
+    padding: 0;
+    height: 2.5rem;
+}
+
+
+#myTabContent{
+    color: gray;
+}
+
+#myTabContent .menu-items a{
+    color:red;
+}
+
+#myTabContent .menu-items a:hover{
+    color: gray;
+}
+
+.newTab{
+    padding: 25px !important;
+    margin: 0;
+}
+
+.newTab .card{
+    margin: 0;
+}
+
+.newTab .card h5{
+    display: inline-block;
+}
+.cart-box{
+    background-color: rgb(215, 215, 215);
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    width: 25%;
+    border-width: 4px 2px 2px 2px;
+    border-style: solid solid none solid ;
+    border-color: #f00 rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+    height:65%;
+    margin:4px, 4px;
+    padding:4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+.cart-box h1 {
+    text-align: center;
+    position: absolute;
+    bottom: 2.5rem;
+}
+.cart-box p{
+    text-align: center;
+    position: absolute;
+    bottom: 0.01rem;
+}
+
+.authentication-section p{
+display:inline-block;
+font-size: large;
+cursor: pointer;
+}
+.authentication-section p :hover{
+    color: rgb(255, 0, 0) ;
+   
+}
+
+.login-section{
+    width: 40%;
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    z-index: 1000000;
+    margin-left: 27rem;
+}
+
+.cart-box .card-title{
+    padding-top: 60px;
+}
+
+.login-section img{
+width:15%;
+}
+.login-section .ourauth ,.otherauth{
+    padding: 30px;
+   background-color: rgb(255, 255, 255);
+
+}
+.login-section .ourauth input{
+    margin:10px;
+    width: 75%;
+}
+.login-section .ourauth button{
+    margin: 20px;
+    position: relative;
+    left: 2px;
+}
+.login-section .otherauth button{
+    width: 40%;
+}
+
+.login-section h4{
+    display: inline-block;
+    font-size:medium;
+    }
+
+    .login-section{
+        bottom: 30px;
+       display: none;
+    }
+
+    .login-next{
+     display: block;
+     position:none;
+     bottom: 0;
+     z-index: 0;
+    }
+
+#profile{
+    background-color: white;
+    color: black;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000000;
+    display: none;
+    background-color: rgb(191, 191, 191);
+}
+
+
+
+#cartiteam #row1{
+    height: 35%;
+}
+
+  #cartiteam .card-title {
+    font-size: xx-large; 
+  }
+  #cartiteam p{
+    top: 4rem;
+    text-align: justify;
+    font-size: medium;
+  }
+  .price{
+    position: absolute;
+    right:4px;
+    width: 100px;
+  }
+  hr{
+    position: relative;
+    top:20px
+  }
+
+
+
+
+  
+  #cartiteam  form {
+    width:fit-content;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #CHECKOUT{
+    padding: 20px 0;
+    background-color: rgb(235, 253, 251);
+    right: 20px;
+    position: fixed;
+    width: 25%;
+    bottom: 55px;
+    z-index: 1000;
+    border-width: 4px 2px 2px 2px;
+    border-style: none solid solid solid ;
+    border-color: #f00 rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+  }
+#CHECKOUT .to{
+    color: rgb(156, 156, 156);
+}
+#CHECKOUT a{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+}
+#CHECKOUT h2{
+    padding-left: 6px;
+}
+
+
