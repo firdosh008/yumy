@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.set('view engine','ejs');
 app.use(bodyparser.urlencoded({extended:true}));
 
-mongoose.connect("mongodb://127.0.0.1/yumydb");
+mongoose.connect("mongodb+srv://admin-firdosh:test123@cluster0.crisinm.mongodb.net/?retryWrites=true&w=majority");
 
 
 var auth="login | Signup";
@@ -94,7 +94,7 @@ app.post("/",function(req,res){
     no:req.body.no,
     message:req.body.message
    });
-  
+ 
    newTable.save();
 
    const newReview= new Review({
@@ -103,7 +103,7 @@ app.post("/",function(req,res){
     subject:req.body.subject,
     review:req.body.review
    })
-
+  
    newReview.save();
 
    const newUser=new Auth({
