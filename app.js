@@ -152,7 +152,7 @@ app.post("/",function(req,res){
 
 
 
-app.listen(process.env.PORT ,function(err){
+app.listen(process.env.PORT||3000,function(err){
     if(!err)
     console.log("server running ");
 })
